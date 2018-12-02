@@ -5,10 +5,60 @@
     <title>HTML/CSS Lab</title>
     <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css">
     <style>
+      .muted {
+        color: #999
+      }
     </style>
   </head>
 
-  <body>
+  <body class="flex">
+    <div id="tweet_feed" class="mx-auto mt3" style="width: 600px">
+
+      <!-- NARUTO -->
+      <div class="flex border-bottom mb2">
+        <div class="overflow-hidden rounded mr2 mb2" style="width: 48px; height: 48px">
+          <img class="flex-none" src="assets/images/Naruto_Hokage.nosync.png" alt="Naruto as the Hokage" style="width: 50px; height: 50px">
+        </div>
+
+        <div class="flex flex-column">
+          <small>
+            <strong>Naruto Uzumaki</strong> <!-- can technically use <b></b>, but <strong> is better for various reasons (e.g. audio aids for the blind) -->
+            <span class="muted">@UzumakiNaruto</span>
+            <p>I'm the Hokage of the village of Konoha!</p>
+          </small>
+        </div>
+      </div>
+
+      <!-- LUFFY -->
+      <div class="flex border-bottom mb2">
+        <div class="overflow-hidden rounded mr2 mb2" style="width: 48px; height: 48px">
+          <img class="flex-none" src="assets/images/One_Piece_Luffy.nosync.jpg" alt="Luffy being silly with two 'peace' signs" style="width: 50px; height: 50px">
+        </div>
+
+        <div class="flex flex-column">
+          <small>
+            <strong>Monkey D. Luffy</strong> <!-- can technically use <b></b>, but <strong> is better for various reasons (e.g. audio aids for the blind) -->
+            <span class="muted">@Monke_D_Luffy</span>
+            <p>I'm going to be the King of Pirates! Just you watch!</p>
+          </small>
+        </div>
+      </div>
+
+      <!-- GOKU -->
+      <div class="flex mb2">
+        <div class="overflow-hidden rounded mr2 mb2" style="width: 48px; height: 48px">
+          <img class="flex-none" src="assets/images/Goku_Profile_Pic.nosync.png" alt="Goku looking happy" style="width: 50px; height: 50px">
+        </div>
+
+        <div class="flex flex-column">
+          <small>
+            <strong>Son Goku</strong> <!-- can technically use <b></b>, but <strong> is better for various reasons (e.g. audio aids for the blind) -->
+            <span class="muted">@SuperSaiyan_Goku</span>
+            <p>Did someone mention food? I'm starving!</p>
+          </small>
+        </div>
+      </div>
+    </div>
 
   </body>
 
